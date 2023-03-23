@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Responsive Content + Media Columns Section using the latest Flexbox</title>
+</head>
+<link rel="stylesheet" href="style.css" media="all" />
+
+<body>
+<h1 align="center">Responsive Content + Media Columns Section<br> using the latest <a href="https://www.w3.org/TR/css-flexbox-1/" target="_blank">Flexbox</a></h1>
+<h2 align="center">CONTENT + MEDIA Columns inside 1170px Container</h2>
+<p align="center">Content in left then Media in right with <u style="color: royalblue">500px</u> media column width.</p>
+<hr>
+<section class="section-contentmedia-columns animate-onview">
+	<div class="container">
+    	<div class="contentmedia-columns contentmedia-columns-mediumlarge">
+        	<div class="column-content">
+            	<h2 class="content-heading small">About Us
+                	<strong class="content-subheading">Helping You Focus on What Matters</strong>                                                  
+                </h2>
+                <div class="content-elements">
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="column-media">
+            	<figure class="mediumlarge">
+                	<img src="man_standing_top_mountain_with_incredible_view_lake.jpg" class="size-large" alt="Man with hands wide open standing at the top of a mountain enjoying the incredible view of a lake" width="1200" height="880">
+                </figure>
+            </div>
+        </div>
+    </div><!-- .container -->
+</section>
+
+
+<h2 align="center">MEDIA + CONTENT Columns inside 1170px Container</h2>
+<p align="center">Media image in left then Content in right with <u style="color: royalblue">600px</u> media column width to show another adjustment.</p>
+<hr>
+<section class="section-contentmedia-columns animate-onview">
+	<div class="container">
+    	<div class="contentmedia-columns contentmedia-columns-reverse contentmedia-columns-extralarge">
+        	<div class="column-content">
+            	<h2 class="content-heading small">About Us
+                	<strong class="content-subheading">Helping You Focus on What Matters</strong>                                                  
+                </h2>
+                <div class="content-elements">
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="column-media">
+            	<figure class="extralarge">
+                	<img src="man_standing_top_mountain_with_incredible_view_lake.jpg" class="size-1536x1536" alt="Man with hands wide open standing at the top of a mountain enjoying the incredible view of a lake" width="1500" height="1100">
+                </figure>
+            </div>
+        </div>
+    </div><!-- .container -->
+</section>
+
+
+<h2 align="center">CONTENT + MEDIA Columns with Media extended to far RIGHT</h2>
+<p align="center">Content in left then Media in far right with <u style="color: royalblue">500px</u> media column width which is now hidden replaced by the extended media.</p>
+<hr>
+<section class="section-contentmedia-columns-extended animate-onview">
+	<!-- .container has been removed here then add extended media element below -->
+    <div class="column-media-extended column-media-right column-media-mediumlarge" style="background-image: url(business_team_manager_in_meeting.jpg);">
+    	<div class="overlay"></div>
+	</div>
+    <div class="contentmedia-columns contentmedia-columns-mediumlarge">
+        <div class="column-content">
+            <h2 class="content-heading small">About Us
+                <strong class="content-subheading">Helping You Focus on What Matters</strong>                                                  
+            </h2>
+            <div class="content-elements">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="column-media">
+            <figure class="mediumlarge">
+                <img src="business_team_manager_in_meeting.jpg" class="size-large" alt="Man with hands wide open standing at the top of a mountain enjoying the incredible view of a lake" width="1200" height="880">
+            </figure>
+        </div>
+    </div>
+</section>
+
+
+<h2 align="center">CONTENT + MEDIA Columns with Media extended to far LEFT</h2>
+<p align="center">Content in right then Media in far left with <u style="color: royalblue">600px</u> media column width which is now hidden replaced by the extended media.</p>
+<hr>
+<section class="section-contentmedia-columns-extended animate-onview">
+	<!-- .container has been removed here then add extended media element below -->
+    <div class="column-media-extended column-media-left column-media-extralarge" style="background-image: url(business_team_manager_in_meeting.jpg);">
+    	<div class="overlay"></div>
+	</div>
+    <div class="contentmedia-columns contentmedia-columns-reverse contentmedia-columns-extralarge">
+        <div class="column-content">
+            <h2 class="content-heading small">About Us
+                <strong class="content-subheading">Helping You Focus on What Matters</strong>                                                  
+            </h2>
+            <div class="content-elements">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="column-media">
+            <figure class="extralarge">
+                <img src="business_team_manager_in_meeting.jpg" class="size-1536x1536" alt="Man with hands wide open standing at the top of a mountain enjoying the incredible view of a lake" width="1500" height="1100">
+            </figure>
+        </div>
+    </div>
+</section>
+
+<h5 align="center">Hope this simple work around helps!</h5>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.min.js"></script>
+<script>
+	jQuery(document).ready(function () {
+	  // Animate Elements as they enter viewport
+	  var animation_elements = jQuery(".animate-onview");
+	  var win = jQuery(window);
+		
+	  function check_if_in_view() {
+		var window_height = win.height();
+		var window_top_position = win.scrollTop();
+		var window_bottom_position = (window_top_position + window_height);
+		
+		jQuery.each(animation_elements, function() {
+		  var element = jQuery(this);
+		  var element_height = element.outerHeight();
+		  var element_top_position = element.offset().top;
+		  var element_bottom_position = (element_top_position + element_height);
+		
+		  //check to see if this current container is within viewport
+		  if ((element_bottom_position >= window_top_position) &&
+			(element_top_position <= window_bottom_position)) {
+			  element.addClass("inView");
+			} else {
+			  element.removeClass("inView");
+			}
+		});
+	  }
+	
+	  win.on('scroll resize', check_if_in_view);
+	  win.trigger('scroll');
+	  	 
+	});                          
+</script>
+</body>
+</html>
